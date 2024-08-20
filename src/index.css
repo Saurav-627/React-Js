@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+ /* base rule  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+    /* 1rem = 10px  */
+    scroll-behavior: smooth;
+    /* scroll-snap-type: Y proximity; */
+    background-color: var(--font-color);
+    color: var(--supporting-color);
+  }
+  
+  /* theme */
+  
+  :root {
+    --main-color: #0062ff;
+    --supporting-color: #ebf3fe;
+    --font-color: #424242;
+    /* --bg-color: #ffffff; */
+    --bg-color: #f7fcff;
+    --heading-color: #000a19;
+    --hero-heading-color: #003b99;
+    --white-color: #ffffff;
+    --para-color: #504e4d;
+    --bnt-hover-bg-color: #003b99;
+    --btn-box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 1px;
+    --footer-bg-color: #040d12;
+    --lime:#00b300;
+    --yellow:rgb(228, 228, 82);
+    --hover-color:rgba(36, 117, 179, 0.7);
+  }
+
+  /* layout */
+  .container{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 9.6rem 2.4rem 
+  }
+ 
+  .grid{
+    display: grid;
+    gap: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .grid-two--cols{
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .grid-three--cols{
+    grid-template-columns: repeat(3,1fr);
+  }
+  .grid-four--cols{
+    grid-template-columns: repeat(4,1fr);
+  }
+ 
+ 
+
+
+
+  

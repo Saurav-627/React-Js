@@ -1,0 +1,19 @@
+.super_hit{
+    background-color: var(--lime);
+ }
+ .average {
+   background-color: var(--yellow);
+}
+
+.rating{
+ color: var(--heading-color);
+ padding: 0.6rem;
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
+}
+
+
+

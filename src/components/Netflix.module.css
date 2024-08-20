@@ -1,0 +1,28 @@
+
+/* .cards{
+    display: flex;
+    gap: 1.5rem;
+    box-shadow: rgba(212, 206, 206, 0.2) 0px 2px 8px 0px;
+    flex-direction: column;
+    padding: 0.5rem;
+  } */
+  
+.super_hit{
+    background-color: var(--lime);
+ }
+ .average {
+   background-color: var(--yellow);
+}
+
+.rating{
+ color: var(--heading-color);
+ padding: 0.6rem;
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
+}
+
+
+
