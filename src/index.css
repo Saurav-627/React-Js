@@ -14,12 +14,12 @@
   }
   
   html {
-    font-size: 62.5%;
+    /* font-size: 62.5%; */
     /* 1rem = 10px  */
     scroll-behavior: smooth;
     /* scroll-snap-type: Y proximity; */
-    background-color: var(--font-color);
-    color: var(--supporting-color);
+    /* background-color: var(--font-color); */
+    /* color: var(--supporting-color); */
   }
   
   /* theme */

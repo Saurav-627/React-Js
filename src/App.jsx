@@ -1,6 +1,8 @@
 // import NetflixSeries from "./components/NetflixSeries";
-import EventHandling from './components/EventHandling';
-import './components/Netflix.module.css';
+// import EventHandling from './components/EventHandling';
+// import './components/Netflix.module.css';
+
+import  { MyState } from "./components/Hooks/State";
 
 
 
@@ -9,7 +11,10 @@ export const App = () => {
     <div className="container">
       {/* <NetflixSeries /> */}
 
-      <EventHandling />
+      {/* <EventHandling /> */}
+
+      <MyState />
+    
     </div>
   );
 };
