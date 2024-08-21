@@ -1,0 +1,31 @@
+.switch.On{
+ background-color: greenyellow;
+ transform: translateX(130px);
+ -webkit-transform: translateX(130px);
+ -moz-transform: translateX(130px);
+ -ms-transform: translateX(130px);
+ -o-transform: translateX(130px);
+ border-color: grey;
+ 
+}
+.switch.Off{
+    background-color: red;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+.switch,.switch-state{
+    transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+}
+.switch-state.On{
+    background-color: greenyellow;
+}
+.switch-state.Off{
+    /* background-color: red; */
+}
