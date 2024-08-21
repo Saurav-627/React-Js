@@ -21,3 +21,6 @@ const buttonClicked = () => {
 }
 
 export default EventHandling
+
+//! jaile pani event use garda onClick or any event function camelCase ma hunu paro rw 'on' prefix hunu paro. plus event vitra function call garda always use 'Handle' prefix with proper name , its not compulsory but its a good habit
+
