@@ -18,8 +18,9 @@
     /* 1rem = 10px  */
     scroll-behavior: smooth;
     scroll-snap-type: Y proximity;
-    background-color: var(--font-color);
-    color: var(--supporting-color);
+    /* background-color: var(--font-color); */
+    background-color: azure;
+    /* color: var(--supporting-color); */
   }
   
   /* theme */

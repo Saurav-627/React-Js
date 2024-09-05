@@ -18,7 +18,7 @@ const ShortCircuit = () => {
 
  
   return (
-    <section className="w-1/2 h-1/2 font-bold flex flex-col gap-10 bg-slate-50 rounded-lg text-black shadow-xl shadow-gray-600  p-8">
+    <section className="w-1/2 h-1/2 font-bold flex flex-col gap-10 bg-slate-50 rounded-lg text-black shadow-xl shadow-gray-600 p-8">
       <h1 className="text-center text-5xl">
         Welcome to the ShortCircuit Evaluation!
       </h1>
